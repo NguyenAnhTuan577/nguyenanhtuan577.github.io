@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>1612778</title>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h2>Bé Tập Tính</h2>
+    </div>
+    <div>
+        <div>
+            <div class="col span_3_of_10">
+                <div class="label-so">
+                    <p>Số thứ nhất</p>
+                    <p>Số thứ hai</p>
+                    <p>Kết quả</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="col span_4_of_10">
+                <div class="textbox-so">
+                    <input type="text" id="so1" name="so1">
+                    <input type="text" id="so2" name="so2">
+                    <input type="text" id="kq" name="kq">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="col span_3_of_10">
+                <div class="pheptinh">
+                    <form action="">
+                        <input type="radio" name="toantu" value="Cộng" id="add">Cộng
+                        <input type="radio" name="toantu" value="Trừ" id="sub">Trừ<br>
+                        <input type="radio" name="toantu" value="Nhân" id="mul">Nhân
+                        <input type="radio" name="toantu" value="Chia" id="div">Chia <br>
+                        <br>
+                        <input type="button" value="Tính" onclick="calculate()">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div>
+        <div class="col span_3_of_10">
+            <p class="tb">Thông báo:</p>
+        </div>
+        <div class="col span_7_of_10">
+            <h3 id="thongbao" ></h3>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
