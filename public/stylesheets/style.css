@@ -1,0 +1,42 @@
+html{
+    color: blueviolet;
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.label-so{
+    /* background-color: red; */
+    width: 90%;
+    text-align: center;
+}
+.textbox-so{
+    /* background-color: yellow; */
+    text-align: center;
+}
+.textbox-so #so1,#so2,#kq{
+    display: block;
+    margin: 4%;
+    width: 90%;
+}
+.pheptinh{
+    width: 90%;
+    /* background-color: blue; */
+    margin: 5%;
+}
+.pheptinh .btn{
+    margin-top: 5%;
+}
+#thongbao{
+    color: red;
+}
+.tb{
+    text-align: center;
+}
